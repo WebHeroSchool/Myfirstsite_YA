@@ -1,3 +1,79 @@
 body {
 	font-family: Roboto;
 }
+.wrapper {
+	width: 80%;
+	margin: auto;
+	border: dashed 1px blue;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	border: dashed 1px blue;
+}
+.logo {
+	width: 146px;
+	height: 32px;
+	padding: 40px 0;
+	border: dashed 1px blue;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	border: dashed 1px blue;
+}
+.menu__item {
+	padding: 0 13px;
+	border: dashed 1px blue;
+}
+.menu__item:last-child {
+	padding-right: 0;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+}
+.main-content {
+	justify-content: center;
+	border: dashed 1px blue;
+}
+.main-content__title {
+	width: 567px;
+	height: 255px;	
+	margin: 0 0 40px 0;
+	border: dashed 1px blue;
+}
+.main-content__description {
+	border: dashed 1px blue;
+	width: 455px;
+	height: 52px;	
+	margin: 0 0 40px 0;
+}
+.main-content__button {
+	width: 271px;
+	height: 57px;	
+}
+.image-content { 
+	padding: 122px 0 85px 0; 
+	border: dashed 1px blue;
+}
+.image-content__image {
+	width: 770px;
+	height: 653px;
+	border: dashed 1px blue;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	border: dashed 1px blue;
+	padding: 40px 0;
+	
+}
+.footer__point {
+	width: 8px; 
+	height: 8px;
+	background: #C8DBFB;
+	border-radius: 50%;
+	padding: 0 2px;
+}
