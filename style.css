@@ -7,15 +7,34 @@ body {
 	border: dashed 1px blue;
 }
 .header {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	border: dashed 1px blue;
 }
 .logo {
-	width: 146px;
-	height: 32px;
 	padding: 40px 0;
+	padding-left: 44px;
 	border: dashed 1px blue;
+	font: bold 24px/32px pt_serif,arial,helvetica,sans-serif;
+}
+.logo__circle {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
+.logo__circle_color_dark-blue {
+background: #0056EC;
+}
+.logo__circle_color_blue {
+left: 8px;
+top: 56%;
+background: #C8DBFB;
+opacity: .7;
 }
 .menu {
 	display: flex;
