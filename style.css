@@ -4,18 +4,15 @@ body {
 .wrapper {
 	width: 80%;
 	margin: auto;
-	border: dashed 1px blue;
 }
 .header {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	border: dashed 1px blue;
 }
 .logo {
 	padding: 40px 0;
 	padding-left: 44px;
-	border: dashed 1px blue;
 	font: bold 24px/32px pt_serif,arial,helvetica,sans-serif;
 }
 .logo__circle {
@@ -39,14 +36,12 @@ opacity: .7;
 .menu {
 	display: flex;
 	align-items: center;
-	border: dashed 1px blue;
 }
 .menu__item {
 	position: relative;
 	margin-right:26px;
 	font: 500 18px/21px Roboto,arial,helvetica,sans-serif;
 	color: #000;
-	border: dashed 1px blue;
 	text-decoration: none;
 	transition: opacity 1s;
 }
@@ -55,7 +50,6 @@ opacity: .7;
 	margin-right:26px;
 	font: 500 18px/21px Roboto,arial,helvetica,sans-serif;
 	color: #000;
-	border: dashed 1px blue;
 	text-decoration: none;
 	transition: opacity 1s;
 }
@@ -97,6 +91,8 @@ background: #0056EC
 	display: flex;
 	justify-content: space-between;
 	align-items: center; 
+	border: dashed 1px blue;
+}
 }
 .main-content {
 	justify-content: center;
