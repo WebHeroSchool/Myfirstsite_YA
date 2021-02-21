@@ -98,6 +98,7 @@ background: #0056EC
 	margin: 0;
 	padding: 76px 63% 40px 0;
 	font: bold 66px/85px pt_serif,arial,helvetica,sans-serif;
+	letter-spacing: 2.7px;
 }
 .main__title-text_highlight {
 	position: relative;
@@ -124,7 +125,7 @@ background: #ECF3FF;
  	font: 500 18px/21px Roboto,arial,helvetica,sans-serif;
  	color: #fff;
  	background: #0056EC;
- 	padding: 18px 21px;
+ 	padding: 18px 37px 18px 21px;
  	text-decoration: none;
  	border-radius: 4px;
  	transition: opacity .5s;
