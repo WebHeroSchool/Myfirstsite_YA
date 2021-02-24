@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Мой первый сайт</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="fonts.css">
@@ -22,10 +23,20 @@
       <a class="menu__item" href="">blog</a>
       <a class="menu__item" href="">contact us</a> 
     </nav>
+    <input id="menu__toggle" type="checkbox"/>
+    <label class="burger-button" for="menu__toggle">
+    </label>
+    <div class="burger-menu">
+      <a class="burger-menu__item" href="">start</a>
+      <a class="burger-menu__item" href="">services</a>
+      <a class="burger-menu__item" href="">about</a>
+      <a class="burger-menu__item" href="">blog</a>
+      <a class="burger-menu__item" href="">contact us</a>
+    </div>
   </header>
   <section class="main">
     <h1 class="main__title">Building an App <span class="main__title-text_highlight">Without Design</span> <span class="main__title-text_highlight">Expertise</span>?</h1>
-    <p class="main__description">I help tech startups design better digital products without hiring a full-time designer</p>
+    <p class="main__description">I help tech startups design better digital products&nbspwithout hiring a&nbspfull-time designer</p>
     <a href="" class="main__button">Schedule free consultation</a>
   </section>
   <footer class="footer"> 
