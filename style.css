@@ -161,9 +161,16 @@ background: #ECF3FF;
  	text-decoration: none;
  	border-radius: 4px;
  	transition: opacity .5s;
+ 	animation: flash 1s infinite ease-in-out;
+}
+@keyframes flash {
+to{
+	opacity: 0.9;
+}
 }
 .main__button:hover {
 opacity: .5;
+animation: initial;
 }
 
 .footer {
